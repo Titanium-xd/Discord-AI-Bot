@@ -1,0 +1,26 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "A Discord AI chatbot powered by Google Gemini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "gemini",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@mistralai/mistralai": "^1.10.0",
+    "discord.js": "^14.23.2",
+    "dotenv": "^17.2.3"
+  }
+}

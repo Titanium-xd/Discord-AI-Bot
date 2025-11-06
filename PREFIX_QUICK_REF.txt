@@ -1,0 +1,91 @@
+╔═══════════════════════════════════════════════════════════════╗
+║          DISCORD BOT - PREFIX COMMANDS REFERENCE               ║
+║                     PREFIX: *                                  ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🔹 RESTART BOT FIRST: npm start or double-click RUN_BOT.bat
+
+
+═══════════════════════════════════════════════════════════════════
+
+🛡️ MODERATION COMMANDS (Type * in Discord)
+
+*ban <userid> [reason]
+    Example: *ban 1234567890123456789 Spamming
+    Needs: Ban Members permission
+
+*unban <userid>
+    Example: *unban 1234567890123456789
+    Needs: Ban Members permission
+
+*mute <@user> [duration] [reason]
+    Example: *mute @Username 30 Being disruptive
+    Example: *mute @Username (permanent)
+    Needs: Timeout Members permission
+    Duration in MINUTES
+
+*unmute <@user>
+    Example: *unmute @Username
+    Needs: Timeout Members permission
+
+*serverinfo or *server
+    Shows server details
+    No special permissions needed
+
+*help
+    Shows this help menu
+    No special permissions needed
+
+
+═══════════════════════════════════════════════════════════════════
+
+💬 AI CHAT
+
+Just type normal messages WITHOUT the * prefix!
+Example: "Hello bot!" or "What's the weather like?"
+
+
+═══════════════════════════════════════════════════════════════════
+
+⚙️ SETUP CHECKLIST
+
+☐ Restart bot after update
+☐ Give bot these permissions:
+  • Ban Members
+  • Timeout Members  
+  • View Channels
+  • Send Messages
+☐ Enable Developer Mode to copy user IDs
+☐ Get user ID: Right-click user → Copy ID
+
+
+═══════════════════════════════════════════════════════════════════
+
+📝 QUICK TIPS
+
+• Ban/Unban: Use USER IDs (17-19 digits)
+• Mute/Unmute: Use @MENTIONS
+• Duration is in MINUTES for mute
+• Leave duration empty = permanent mute
+• AI chat works WITHOUT * prefix
+
+
+═══════════════════════════════════════════════════════════════════
+
+📚 MORE HELP
+
+Full Guide: PREFIX_COMMANDS.md
+Start Here: PREFIX_START_HERE.md
+
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 YOUR BOT IS READY!
+
+Just restart: npm start
+Then try: *help
+
+═══════════════════════════════════════════════════════════════════
+
+
+

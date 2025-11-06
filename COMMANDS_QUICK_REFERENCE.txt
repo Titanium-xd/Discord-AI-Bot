@@ -1,0 +1,77 @@
+╔══════════════════════════════════════════════════════════════╗
+║     DISCORD BOT - QUICK COMMAND REFERENCE                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔹 RESTART BOT FIRST TO LOAD COMMANDS:
+   Press Ctrl+C then run: npm start
+
+
+═══════════════════════════════════════════════════════════════
+
+🛡️ MODERATION COMMANDS (Type / in Discord)
+
+/ban <userid> [reason]
+    Example: /ban userid:1234567890123456789 reason:Spamming
+    Needs: Ban Members permission
+
+/unban <userid>
+    Example: /unban userid:1234567890123456789
+    Needs: Ban Members permission
+
+/mute <user> [duration] [reason]
+    Example: /mute user:@Spammer duration:30 reason:Timeout
+    Needs: Timeout Members permission
+    Duration in minutes (omit for permanent)
+
+/unmute <user>
+    Example: /unmute user:@Username
+    Needs: Timeout Members permission
+
+/serverinfo
+    Shows server details
+    No special permissions needed
+
+
+═══════════════════════════════════════════════════════════════
+
+💬 AI CHAT FEATURES
+
+Type any message in the configured channel to chat!
+The bot responds using Gemini AI.
+
+
+═══════════════════════════════════════════════════════════════
+
+⚙️ SETUP CHECKLIST
+
+☐ Restart bot after update
+☐ Wait 1-5 min for commands to appear
+☐ Give bot these permissions:
+  • Ban Members
+  • Timeout Members
+  • View Channels
+  • Send Messages
+  • Use Slash Commands
+☐ Ensure users have appropriate roles
+
+
+═══════════════════════════════════════════════════════════════
+
+📚 MORE INFO
+
+Full Guide: MODERATION_COMMANDS.md
+Update Info: UPDATE_SUMMARY.md
+Quick Start: QUICK_START.md
+
+
+═══════════════════════════════════════════════════════════════
+
+🚀 YOUR BOT IS READY!
+
+Restart now: npm start
+Then try: /serverinfo
+
+═══════════════════════════════════════════════════════════════
+
+
+

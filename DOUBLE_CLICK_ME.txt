@@ -1,0 +1,52 @@
+=======================================================
+    EASIEST WAY TO START YOUR BOT
+=======================================================
+
+👉 DO THIS:
+-----------
+1. Double-click the file: "RUN_BOT.bat"
+2. That's it! The bot will start!
+
+OR use the terminal method below.
+
+
+=======================================================
+    OR USE TERMINAL METHOD
+=======================================================
+
+👉 DO THIS IN TERMINAL:
+----------------------
+1. Press Win + X, select "Terminal" or "PowerShell"
+2. Copy and paste these TWO commands:
+
+cd "D:\codes\discord ai bot"
+npm start
+
+3. Press Enter after each command
+
+
+=======================================================
+    WHAT TO EXPECT
+=======================================================
+You should see:
+
+=== Configuration Check ===
+Discord Token: Loaded ✅
+Gemini API Key: Loaded ✅
+Channel ID: Loaded ✅ (Restricted)
+===========================
+✅ Logged in as YourBotName#1234
+🤖 Bot is ready to chat!
+
+
+=======================================================
+    WHERE TO CHAT WITH BOT
+=======================================================
+Go to Discord channel ID: 1365657652721618968
+Type any message and the bot will reply!
+
+
+=======================================================
+
+
+
