@@ -26,7 +26,7 @@ Create a `.env` file in the root directory with the following content:
 DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
 
 # Gemini AI Configuration
-GEMINI_API_KEY=AIzaSyCITfNm8ESWxNiMOuid9Hi6NvvqmGyZ1f4
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
 
 # Optional: Channel ID to restrict bot to specific channel
 # Leave empty to respond in all channels
@@ -83,6 +83,7 @@ If you set a `CHANNEL_ID` in your `.env` file, the bot will only respond in that
 ## License
 
 ISC
+
 
 
 
